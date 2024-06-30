@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>포켓몬 Swiper</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/pocketball.ico"
+      type="image/x-icon"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/audio.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <button class="bgm"><img src="./assets/sound-off.svg" alt="음소거" /></button>
+    <div class="container">
+      <img class="logo" src="./assets/logo.png" alt="logo" />
+      <img class="frame" src="./assets/frame.png" alt="frame" />
+      <img class="ground" src="./assets/ground.png" alt="ground" />
+    </div>
+    <!-- Swiper -->
+    <div class="swiper pocketmon-swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides will be dynamically inserted here -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </body>
+</html>
